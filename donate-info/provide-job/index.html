@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Hello</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" type="text/css" href="provid-job.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <script type="text/javascript"></script>
+</head>
+<body>
+<header>
+	<!-- Navigation -->
+<nav class="navbar fixed-top navbar-expand-lg navbar-dark shadow ">
+  <div class="container">
+    <a class="navbar-brand" href="#">"Thank U JO"</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+    <div class="collapse navbar-collapse" id="navbarResponsive">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="#">Home
+                <span class="sr-only">(current)</span>
+              </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<div class="container main-con"></div>
+</header>
+<div class="container d-flex justify-content-center align-items-center">
+<div class="modal fade" id="elegantModalForm" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+  aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <!--Content-->
+    <div class="modal-content form-elegant">
+      <!--Header-->
+      <div class="modal-header text-center mb-3">
+        <h3 class="modal-title w-100 dark-grey-text font-weight-bold my-3" id="myModalLabel"><strong>Donation Form.</strong></h3>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <!--Body-->
+      <div class="modal-body mx-4">
+        <!--Body-->
+        <div class="md-form mb-3">
+          
+          <label data-error="wrong" data-success="left" for="f-name">Full Name</label>
+          <input type="text" id="f-name" class="form-control" required="">
+          <small>Please enter your name from Four sections.</small>
+        </div>
+        <div class="md-form mb-3">
+          <label data-error="wrong" data-success="left" for="email-add">Email Address</label>
+          <input type="email" id="email-add" class="form-control" required="">
+        </div>
+
+        <div class="md-form mb-3">
+          <label data-error="wrong" data-success="left" for="job">Your Job</label>
+          <input type="text" id="job" class="form-control" >
+        </div>
+        <div class="md-form mb-3">
+          
+          <label data-error="wrong" data-success="right" for="add">Your Address</label>
+          <input type="text" id="add" class="form-control validate" required="">
+        </div>
+
+        <div class="md-form pb-3">
+          
+          <label data-error="wrong" data-success="right" for="age">Your Age</label>
+          <input type="date" id="age" class="form-control validate">
+        
+        </div>
+
+         <div class="md-form pb-3">
+          
+          <label data-error="wrong" data-success="right" for="text">Your Notes</label>
+         <textarea class="form-control validate" id="text" cols="40" rows="5" placeholder="Type your notes here .."></textarea>
+        
+        </div>
+        <div class="text-center mb-3">
+          <button class="reg-btn">Donate.</button><br/>
+        </div>
+     	<div class="modal-footer justify-content-center">    
+			<a href="#" type="button" class="btn btn-contact">Contact us for more information <i class="fas fa-address-book"></i></a>
+		</div>
+        
+      </div>
+    </div>
+    <!--/.Content-->
+  </div>
+</div>
+<!-- Modal -->
+
+</div>
+<section class="container pc-sec text-center">
+	<header class="pc-header">
+		<h1>How I can Provide Jobs ?</h1>
+	</header>
+	<div class="pc-text text-center">
+		<p>Bootstrap modal forms are displayed-on-action pop-up forms that are used for gathering data from website visitors and to register or log users.
+
+Using them alongside valuable content might bring a lot of business value to your project.
+
+However, you should remember that using them in a spammy manner might have a completely different outcome - a drop in UX quality and frustration of your users.</p>
+	</div>
+</section>
+	<div class="container d-flex justify-content-center align-items-center">
+		<a href="" class="btn btn-default main-btn"data-toggle="modal" data-target="#elegantModalForm">Donate Now!</a><br/>
+	</div>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+	<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+	<script>
+	AOS.init();
+	</script>
+</body>
+</html>

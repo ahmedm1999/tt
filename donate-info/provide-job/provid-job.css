@@ -1,0 +1,158 @@
+html,
+body,
+header,
+.view {
+  height: 100%;
+}
+.navbar
+{
+
+	background-color: #206a5d ;
+	border-bottom: 2.5px solid #B29600 ;
+}
+.navbar .navbar-brand
+{
+	color: #B29600;
+	font-weight: bolder ;
+	letter-spacing: 3px ;
+	text-transform: uppercase;
+}
+.navbar .navbar-brand:hover
+{
+	color: #B29600;
+}
+.navbar .navbar-nav .nav-item .nav-link
+{
+	font-weight: 400 ;
+}
+/* /Navigation Bar*/
+.card
+{
+	margin-top: 70px ;
+}
+.navbar .navbar-nav .nav-item .nav-link
+{
+	color : #B29600;
+}
+.navbar .navbar-nav .nav-item .nav-link:hover
+{
+	color: #ffffdd ;
+	transition: 0.5s ;
+}
+
+header .main-con
+{
+    width: 100% ;
+    height: 100% ;
+    background: url("back.png") no-repeat center center;
+    background-size: 100%;
+    /*margin-top: 80px ;*/
+}
+@media (max-width: 760)
+{
+    header .main-con
+    {
+        width: 60% ;
+        margin-top: 1rem;
+    }
+}
+.pc-sec
+{
+	background-color:  #206a5d ;
+	border-radius: 2px ;
+	padding: 2rem ;
+	margin-top: 3rem
+}
+.pc-sec .pc-header
+{
+	color: darkred;
+	font-weight: bolder ;
+}
+.pc-sec .pc-text
+{
+	color: #ffffdd; 
+	font-weight: bold;
+}
+/* Donate Moadal */
+.modal-content
+{
+	background-color: #fff ;
+	border-radius: 10px ;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	padding: 0px ;
+	margin: 0px ; 
+	color: darkred;
+	font-weight: bold;
+}
+.modal-header
+{
+	color: darkred;
+	border-bottom: 1px solid #206a5d;
+	user-select: none;
+}
+.md-form input
+{
+	width: 300px ;
+    height: 35px ;
+    border-radius: 5px ;
+    border: 1.5px solid #206a5d ;
+    font-size: 20px ;
+    text-align: center;
+}
+
+.close
+{
+	color: darkred;
+}
+.reg-btn
+{
+	background-color:#206a5d;
+    color: #ffffdd;
+    font-size: 25px ;
+    font-weight: bold ;
+    width: 180px ;
+    border:none ;
+}
+.face-btn
+{
+    background-color: #1f4068;
+    color: #fff;
+    font-size: 25px ;
+    border: none; ;
+    width: 220px ;
+    border: 2px solid #092532;
+}
+.main-btn
+{
+	background-color : #fff;
+	color: #206a5d;
+	font-size: 25px ;
+	font-weight: bold;
+	border: 2px solid #206a5d;
+	margin-top: 1rem ;
+	padding: 0.7rem 1rem
+}
+.main-btn:hover
+{
+	color : darkred ;
+	transition: .5s ;
+}
+.modal-footer .btn-contact
+{
+	border: 1px solid #3b6978 ;
+	color: #ffffdd;
+	background-color: #3b6978 ;
+	font-weight: bold ;
+}
+.modal-footer .btn-contact:hover
+{
+	color: #3b6978;
+	border: 1px solid #3b6978 ;
+	background-color: #fff ;
+}
+hr
+{
+	background-color: #ffd31d
+}
